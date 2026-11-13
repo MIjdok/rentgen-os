@@ -1,0 +1,13 @@
+{
+  "name": "rentgen-os-mission",
+  "version": "2.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node build.mjs",
+    "test": "node tests/practice.mjs all"
+  },
+  "devDependencies": {
+    "playwright-core": "^1.48.0"
+  }
+}
